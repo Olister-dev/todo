@@ -1,0 +1,36 @@
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.switch-field {
+  display: flex;
+  overflow: hidden;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  background-color: #fff;
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  padding: 3px 8px;
+  margin-right: 3px;
+  margin-left: 3px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  transition: all 0.1s;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+  border: 1px solid rgba(175, 47, 47, 0.1);
+}

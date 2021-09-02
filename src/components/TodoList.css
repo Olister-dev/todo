@@ -1,0 +1,20 @@
+.main {
+  margin: 0 auto;
+  width: 550px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+}
+
+.main__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #777;
+  padding: 10px 15px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+
+.main__footer_clear-btn {
+  cursor: pointer;
+}
